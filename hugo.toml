@@ -9,12 +9,4 @@ author = 'Joanah Mayor'
 # ------------------------------
 theme = "hugo-paper"
 
-# ------------------------------
-[menu]
-
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
 
