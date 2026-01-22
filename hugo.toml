@@ -1,0 +1,6 @@
+baseURL = 'https://labveilletech.org/'
+languageCode = 'fr-ch'
+title = 'Joanah Mayor | Veille technologique'
+
+theme = "hugo-paper"
+
