@@ -1,15 +1,14 @@
 baseURL = "https://joma0.github.io/labveilletech/"
-title = "Paper"
-author = "Steve Francia"
-copyright = "© 2025, lee.so"
+title = "Veille technologique"
+author = "Joanah Mayor"
 languageCode = "en"
-DefaultContentLanguage = "en"
+DefaultContentLanguage = "fr"
 enableInlineShortcodes = true
 # prevent build failures when using Hugo's Instagram shortcode due to deprecated Instagram API.
 # See https://github.com/gohugoio/hugo/issues/7228#issuecomment-714490456
 ignoreErrors = ["error-remote-getjson"]
 [pagination]
-  pagerSize = 3
+  pagerSize = 5
 
 [module]
   [[module.imports]]
@@ -22,8 +21,8 @@ ignoreErrors = ["error-remote-getjson"]
   instagram = 'nan.xiaobei'
 
 avatar = 'nanxiaobei@gmail.com'
-  name = 'Lee'
-  bio = 'Discover fresh context'
+  name = 'Joanah Mayor'
+  bio = 'Etudiante en Ingénierie des Médias, HEIG-VD'
 # ------------------------------
 
 # needed to  render raw HTML (e.g. <sub>, <sup>, <kbd>, <mark>)
@@ -38,13 +37,8 @@ avatar = 'nanxiaobei@gmail.com'
 
   [[menu.main]]
     identifier = "about"
-    name = "About"
+    name = "A propos"
     url = "/about/"
-    weight = 10
-  [[menu.main]]
-    identifier = "contact"
-    name = "Contact"
-    url = "/contact/"
     weight = 10
 
 [taxonomies]
